@@ -1,0 +1,73 @@
+2026-04-08 13:25:12,725 - INFO - Pipeline started
+2026-04-08 13:25:12,726 - INFO - Processing file: data/bank_transactions.csv
+2026-04-08 13:25:12,732 - ERROR - No data loaded from data/bank_transactions.csv. Skipping.
+2026-04-08 13:25:12,732 - INFO - Pipeline completed successfully
+2026-04-08 13:50:11,409 - INFO - Pipeline started
+2026-04-08 13:50:11,410 - INFO - Processing file: data/bank_transactions.csv
+2026-04-08 13:50:11,417 - ERROR - No data loaded from data/bank_transactions.csv. Skipping.
+2026-04-08 13:50:11,418 - INFO - Pipeline completed successfully
+2026-04-08 13:50:56,467 - INFO - Pipeline started
+2026-04-08 13:50:56,467 - INFO - Processing file: data/bank_statement_realistic.csv
+2026-04-08 13:50:56,606 - INFO - After cleaning: 49030 rows
+2026-04-08 13:50:56,643 - INFO - Fraud detected: 22148
+2026-04-08 13:50:58,341 - INFO - Finished processing: data/bank_statement_realistic.csv
+2026-04-08 13:50:58,341 - INFO - Pipeline completed successfully
+2026-04-08 13:52:58,661 - INFO - Pipeline started
+2026-04-08 13:52:58,662 - INFO - Processing file: data/bank_statement_realistic.csv
+2026-04-08 13:52:58,794 - INFO - After cleaning: 49030 rows
+2026-04-08 13:52:58,829 - INFO - Fraud detected: 22148
+2026-04-08 13:53:00,603 - INFO - Finished processing: data/bank_statement_realistic.csv
+2026-04-08 13:53:00,603 - INFO - Pipeline completed successfully
+2026-04-08 14:04:27,486 - INFO - Pipeline started
+2026-04-08 14:04:27,487 - INFO - Processing file: data/bank_statement_realistic.csv
+2026-04-08 14:04:27,626 - INFO - After cleaning: 49030 rows
+2026-04-08 14:04:27,665 - INFO - Fraud detected: 22148
+2026-04-08 14:04:29,753 - INFO - Finished processing: data/bank_statement_realistic.csv
+2026-04-08 14:04:29,754 - INFO - Pipeline completed successfully
+2026-04-08 14:05:33,709 - INFO - Pipeline started
+2026-04-08 14:05:33,709 - INFO - Processing file: data/bank_statement_realistic.csv
+2026-04-08 14:05:33,840 - INFO - After cleaning: 49030 rows
+2026-04-08 14:05:33,874 - INFO - Fraud detected: 22148
+2026-04-08 14:05:35,767 - INFO - Finished processing: data/bank_statement_realistic.csv
+2026-04-08 14:05:35,767 - INFO - Pipeline completed successfully
+2026-04-08 14:05:43,887 - INFO - Pipeline started
+2026-04-08 14:05:43,888 - INFO - Processing file: data/bank_statement_realistic.csv
+2026-04-08 14:05:44,008 - INFO - After cleaning: 49030 rows
+2026-04-08 14:05:44,041 - INFO - Fraud detected: 22148
+2026-04-08 14:05:45,954 - INFO - Finished processing: data/bank_statement_realistic.csv
+2026-04-08 14:05:45,954 - INFO - Pipeline completed successfully
+2026-04-10 11:04:51,319 - INFO - Pipeline started
+2026-04-10 11:04:51,319 - INFO - Processing file: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-10 11:04:51,444 - INFO - After cleaning: 49030 rows
+2026-04-10 11:04:51,479 - INFO - Fraud detected: 22148
+2026-04-10 11:04:53,522 - INFO - Finished processing: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-10 11:04:53,523 - INFO - Pipeline completed successfully
+2026-04-12 13:34:20,004 - INFO - Pipeline started
+2026-04-12 13:34:20,006 - INFO - Processing file: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-12 13:34:20,125 - INFO - After cleaning: 49030 rows
+2026-04-12 13:34:20,159 - INFO - Fraud detected: 22148
+2026-04-12 13:34:22,166 - INFO - Finished processing: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-12 13:34:22,166 - INFO - Pipeline completed successfully
+2026-04-12 14:17:27,878 - INFO - Pipeline started
+2026-04-12 14:17:27,878 - INFO - Processing file: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-12 14:17:27,999 - INFO - After cleaning: 49030 rows
+2026-04-12 14:17:28,031 - INFO - Fraud detected: 12338
+2026-04-12 14:17:29,822 - INFO - Finished processing: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-12 14:17:29,822 - INFO - Pipeline completed successfully
+2026-04-12 14:21:57,459 - INFO - Pipeline started
+2026-04-12 14:21:57,460 - INFO - Processing file: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-12 14:21:57,580 - INFO - After cleaning: 49030 rows
+2026-04-12 14:21:57,611 - INFO - Fraud detected: 6259
+2026-04-12 14:21:59,224 - INFO - Finished processing: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-12 14:21:59,224 - INFO - Pipeline completed successfully
+2026-04-12 14:25:53,221 - INFO - Pipeline started
+2026-04-12 14:25:53,222 - INFO - Processing file: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-12 14:25:53,342 - INFO - After cleaning: 49030 rows
+2026-04-12 14:25:53,372 - INFO - Fraud detected: 2541
+2026-04-12 14:25:54,928 - INFO - Finished processing: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/bank_statement_realistic.csv
+2026-04-12 14:25:54,928 - INFO - Pipeline completed successfully
+2026-04-12 17:20:21,756 - INFO - Pipeline started
+2026-04-12 17:20:21,756 - INFO - Processing file: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/financial_transactions_10k.csv
+2026-04-12 17:20:21,788 - INFO - After cleaning: 10000 rows
+2026-04-12 17:20:22,161 - INFO - Finished processing: /Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/financial_transactions_10k.csv
+2026-04-12 17:20:22,161 - INFO - Pipeline completed successfully

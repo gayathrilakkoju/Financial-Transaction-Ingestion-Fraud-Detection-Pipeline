@@ -1,0 +1,24 @@
+{
+"input_files": [
+  "data/financial_transactions10k.csv"
+],
+
+"outputs": {
+"log_file": "logs/pipeline.log",
+"fraud_report_csv": "reports/fraud_report.csv",
+"summary_json": "reports/fraud_summary.json",
+"transactions_db": "data/transactions.db"
+},
+"fraud_rules": {
+"high_amount_threshold": 90000,
+"high_amount_weight": 0.6,
+"velocity_threshold": 20,
+"velocity_weight": 0.4,
+"fraud_threshold": 0.92
+},
+"defaults": {
+"currency": "INR",
+"unknown_account_id": "unknown",
+"unknown_category": "unknown"
+}
+}

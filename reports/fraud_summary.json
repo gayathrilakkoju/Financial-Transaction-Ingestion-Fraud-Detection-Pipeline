@@ -1,0 +1,6 @@
+{
+  "input_file": "/Users/gayathrilakkoju/Downloads/automated-bank-reconciliation-engine-main/data/financial_transactions_10k.csv",
+  "rows_processed": 10000,
+  "fraud_detected": 521,
+  "fraud_rate_pct": 5.21
+}
