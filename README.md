@@ -53,6 +53,8 @@ The analysis shows that fraud risk is not uniformly distributed — it is primar
 
 # Insights Deep Dive
 
+![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/3.png?raw=true)
+
 ### Fraud Risk Distribution:
 
 * **Fraud Rate (~5.21%)**
