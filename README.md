@@ -36,7 +36,7 @@ Since the dataset is already structured, the focus was on validation and consist
 * Ensured correct data types for analysis
 * Standardized categorical values where required
  
-
+![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/1.png?raw=true)
 
 # Executive Summary
 
