@@ -64,6 +64,7 @@ The analysis shows that fraud risk is not uniformly distributed — it is primar
   The balance between detection sensitivity and accuracy indicates that thresholds are appropriately tuned to reflect real-world financial risk scenarios.
 
  summary screenshot
+ ![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/Summary.png?raw=true)
 
 ### High-Value Transactions:
 
