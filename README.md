@@ -46,7 +46,9 @@ The pipeline processed ~10,000 financial transactions and identified a fraud rat
 
 The analysis shows that fraud risk is not uniformly distributed — it is primarily driven by high-value transactions and behavioral patterns such as rapid transaction activity. This indicates that even simple rule-based systems can effectively capture meaningful fraud signals when properly calibrated.
 
- final output screenshot 
+ final output 
+
+ ![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/2.png?raw=true)
 
 
 # Insights Deep Dive
