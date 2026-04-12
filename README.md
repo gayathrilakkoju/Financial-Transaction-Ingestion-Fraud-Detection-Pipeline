@@ -1,105 +1,187 @@
-**Financial Transaction Ingestion & Fraud Detection Pipeline**
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fraud Detection Pipeline</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      color: #222;
+    }
 
-**Project Background**
+    h1, h2, h3 {
+      color: #111;
+    }
 
-This project simulates a financial system that monitors transaction activity and tries to detect potential fraud.
-In real banking and fintech systems, millions of transactions are processed every day. From a data analyst’s point of view, the real challenge is not just handling that data, but actually identifying suspicious patterns while still maintaining a good user experience. If you flag too many transactions, genuine users get affected, and if you miss fraud, it leads to financial loss.
-So in this project, I built a simplified version of that kind of system — starting from raw transaction data, preprocessing it, and then applying rule-based fraud detection to generate useful insights.
-The analysis mainly focuses on:
-Fraud Risk Distribution: overall fraud rate and how well the system is calibrated
-High-Value Transactions: where financial risk is concentrated
-Transaction Behavior: suspicious patterns based on transaction frequency/velocity
-System Effectiveness: how well simple rules can still capture fraud patterns
+    h1 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
 
-**Data Structure & Initial Checks**
+    section {
+      margin-bottom: 40px;
+    }
 
-The dataset contains around ~10,000 transaction records.
-Each record includes:
+    ul {
+      margin-left: 20px;
+    }
 
- ⁍ transaction_id
- ⁍ transaction_date
- ⁍ amount
- ⁍ account_id
- ⁍ category
- ⁍ currency
- 
-Since the dataset was already fairly structured, the main focus here was making sure everything was consistent and reliable before analysis:
- Checked schema consistency across all fields
- Verified correct data types
- Standardized categorical values where needed
-📌 (Add dataset preview screenshot here)
+    .box {
+      padding: 10px;
+      background: #f7f7f7;
+      border-left: 4px solid #007acc;
+      margin: 10px 0;
+    }
 
-**Executive Summary**
+    .highlight {
+      background: #fff3cd;
+      padding: 10px;
+      border-left: 4px solid #ffa500;
+    }
 
-Overview of Findings
+    .note {
+      color: #555;
+      font-style: italic;
+    }
+  </style>
+</head>
 
-After processing ~10,000 transactions, the system identified a fraud rate of around 5.21%, which falls within a realistic range for financial systems.
-What stood out is that fraud is not evenly spread across all transactions — it is mostly driven by high-value transactions and certain behavioral patterns like rapid transaction activity. This shows that even simple rule-based systems can still pick up meaningful fraud signals if they are properly tuned.
+<body>
 
-📊 (Add final output screenshot here)
+<h1>Financial Transaction Ingestion & Fraud Detection Pipeline</h1>
 
-**Insights Deep Dive**
+<section>
+<h2>Project Background</h2>
 
-Fraud Risk Distribution:
- Fraud Rate (~5.21%)
-   This is within a realistic range, which suggests the detection rules are reasonably well-calibrated and not overly aggressive.
- System Calibration
-   The balance between catching fraud and avoiding false positives looks stable, meaning the thresholds are set in a practical range.
-   
-📊 (Add fraud visualization or summary screenshot)
+<p>
+This project simulates a financial system that monitors transaction activity and detects potential fraud.
+In real banking and fintech systems, millions of transactions are processed daily. The main challenge is not just handling data, but identifying suspicious patterns while maintaining user experience.
+</p>
 
-**High-Value Transactions:**
+<p>
+In this project, I built a simplified version of that system — starting from raw transaction data, preprocessing it, and applying rule-based fraud detection to generate insights.
+</p>
 
-Concentration of Risk
-  Around 962 transactions (~9.6%) were above the ₹90,000 threshold, which represents a significant portion of overall activity.
-Financial Impact
-  Even though they are fewer in number, high-value transactions contribute heavily to total transaction volume, which makes them important from a risk perspective.
-Operational Insight
-  In real systems, these types of transactions usually go through extra checks or manual verification.
+<div class="box">
+<b>Focus Areas:</b>
+<ul>
+<li>Fraud Risk Distribution</li>
+<li>High-Value Transactions</li>
+<li>Transaction Behavior</li>
+<li>System Effectiveness</li>
+</ul>
+</div>
+</section>
 
-📊 (Add chart here)
+<hr>
 
-Transaction Behavior:
-  Transaction Velocity
-Accounts with frequent transactions in short time windows showed a higher chance of being flagged.
-  Behavioral Patterns
-This kind of rapid activity is often seen in fraudulent or automated transaction behavior.
-Key Insight
-  Transaction amount + transaction frequency together are strong indicators of fraud risk.
+<section>
+<h2>Data Structure & Initial Checks</h2>
 
-📊 (Add behavior chart here)
+<p>The dataset contains around <b>10,000 transaction records</b>.</p>
 
-**System Effectiveness:**
-Rule-Based Performance
-  Even with simple rules, the system is able to pick up meaningful fraud signals.
-Scalability
-  The pipeline is flexible enough to adjust thresholds or extend to larger datasets.
-Business Value
-  Instead of just raw outputs, the system generates structured insights that can actually support decision-making.
-  
-📊 (Add pipeline output screenshot here)
+<h3>Fields:</h3>
+<ul>
+<li>transaction_id</li>
+<li>transaction_date</li>
+<li>amount</li>
+<li>account_id</li>
+<li>category</li>
+<li>currency</li>
+</ul>
 
-**Recommendations:**
+<p>Before analysis, I ensured data consistency:</p>
+<ul>
+<li>Schema validation across all fields</li>
+<li>Correct data types</li>
+<li>Standardized categorical values</li>
+</ul>
 
-Based on the analysis, a few clear takeaways stand out:
-  High-value transactions carry higher exposure
-    ⁍ These should have extra verification or approval steps.
-  Transaction frequency matters just as much as amount
-    ⁍ Monitoring should include behavioral patterns, not just value.
-  Threshold tuning directly affects performance
-    ⁍ These rules should be reviewed regularly to maintain balance between false positives and missed fraud.
-   Rule-based systems alone are limited
-    ⁍ Adding machine learning can improve adaptability and accuracy.
-   Fraud detection should evolve over time
-    ⁍ A hybrid approach (rules + behavior-based models) would be more effective.
-    
-**Assumptions and Caveats:**
+<p class="note">📌 Add dataset preview screenshot here</p>
+</section>
 
-A few things to keep in mind while interpreting this:
+<hr>
 
-⁍ The dataset is synthetic, even though it reflects realistic behavior
-⁍ Fraud detection is rule-based, so some false positives are expected
-⁍ Thresholds were tuned to keep fraud rate in a realistic range (~1–5%)
-⁍ No internal ledger reconciliation is included
-⁍ Transaction timestamps are assumed to be accurate and consistent
+<section>
+<h2>Executive Summary</h2>
 
+<div class="highlight">
+<p>
+After processing ~10,000 transactions, the system identified a fraud rate of <b>5.21%</b>, which falls within a realistic financial range.
+</p>
+
+<p>
+Fraud is not evenly distributed — it is mainly driven by high-value transactions and rapid transaction behavior patterns.
+</p>
+</div>
+
+<p class="note">📊 Add final output screenshot here</p>
+</section>
+
+<hr>
+
+<section>
+<h2>Insights Deep Dive</h2>
+
+<h3>Fraud Risk Distribution</h3>
+<ul>
+<li><b>Fraud Rate (~5.21%)</b> — realistic and well-calibrated</li>
+<li>Balanced detection reduces false positives</li>
+</ul>
+
+<h3>High-Value Transactions</h3>
+<ul>
+<li>~962 transactions (~9.6%) exceeded ₹90,000</li>
+<li>High financial impact despite lower volume</li>
+<li>Often require manual review in real systems</li>
+</ul>
+
+<h3>Transaction Behavior</h3>
+<ul>
+<li>High-frequency transactions show higher risk</li>
+<li>Behavioral patterns strongly indicate fraud risk</li>
+<li>Amount + frequency = key signals</li>
+</ul>
+
+<h3>System Effectiveness</h3>
+<ul>
+<li>Rule-based system captures meaningful fraud signals</li>
+<li>Scalable and adjustable pipeline design</li>
+<li>Produces actionable insights, not just raw outputs</li>
+</ul>
+
+<p class="note">📊 Add charts/screenshots here</p>
+</section>
+
+<hr>
+
+<section>
+<h2>Recommendations</h2>
+
+<ul>
+<li>High-value transactions should have additional verification</li>
+<li>Monitor transaction frequency along with amount</li>
+<li>Regularly recalibrate fraud detection thresholds</li>
+<li>Integrate machine learning for better accuracy</li>
+<li>Use hybrid rule-based + ML systems for best performance</li>
+</ul>
+</section>
+
+<hr>
+
+<section>
+<h2>Assumptions & Caveats</h2>
+
+<ul>
+<li>Synthetic dataset used (realistic behavior simulated)</li>
+<li>Rule-based detection may include false positives</li>
+<li>Thresholds tuned for ~1–5% fraud range</li>
+<li>No internal ledger reconciliation included</li>
+<li>Transaction timestamps assumed accurate</li>
+</ul>
+</section>
+
+</body>
+</html>
