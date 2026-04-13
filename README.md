@@ -53,7 +53,7 @@ The analysis shows that fraud risk is not uniformly distributed — it is primar
 
 # Insights Deep Dive
 
-![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/Arc.png?raw=true)
+![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/images/Arc.png?raw=true)
 
 ### Fraud Risk Distribution:
 
@@ -64,7 +64,7 @@ The analysis shows that fraud risk is not uniformly distributed — it is primar
   The balance between detection sensitivity and accuracy indicates that thresholds are appropriately tuned to reflect real-world financial risk scenarios.
 
  summary screenshot
- ![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/Final.png?raw=true)
+ ![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/images/Final.png?raw=true)
 
 ### High-Value Transactions:
 
