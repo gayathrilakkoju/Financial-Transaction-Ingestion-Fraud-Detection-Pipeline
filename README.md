@@ -48,7 +48,7 @@ The analysis shows that fraud risk is not uniformly distributed — it is primar
 
  final output 
 
- ![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/Final.png?raw=true)
+ ![image alt](https://github.com/gayathrilakkoju/Financial-Transaction-Ingestion-Fraud-Detection-Pipeline/blob/main/images/Final.png?raw=true)
 
 
 # Insights Deep Dive
